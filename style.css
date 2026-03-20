@@ -16,62 +16,73 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px 50px 300px;
     font-family:'Noto Sans','Open Sans', 'Lato';
     justify-content: flex-start;
 }
 
-.head{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
+    .head{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.head h1{
-    color:#E5E7EB;
-    font-size: 18px;
-}
+        .head h1{
+            color:#E5E7EB;
+            font-size: 18px;
+        }
 
-ul{
-    display: flex;
-    gap: 16px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+        ul{
+            display: flex;
+            gap: 16px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
 
-.header.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+    .header .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 100px;
+    }
+        .text-signup{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+            
+            .sign{
+                white-space: nowrap;
+                background-color: #3882F6;
+                outline: none;
+                border: none;
+                border-radius: 8%;
+                width: auto;
+                padding: 8px 16px 8px 16px;
+                color: #F9FAF8;
+            }
 
-.sign{
-    white-space: nowrap;
-    background-color: #3882F6;
-    outline: none;
-    border: none;
-    border-radius: 8%;
-    width: auto;
-    padding: 8px 16px 8px 16px;
-    color: #F9FAF8;
-}
+            #main{
+                font-size: 48px;
+                color: #F9FAF8;
+                font-weight: 900;
+            }
 
-#main{
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
+            #secondary{
+                font-size: 18px;
+                color:#E5E7EB;
+            }
 
-#secondary{
-    font-size: 18px;
-    color:#E5E7EB;
-}
-
-
+        .placeholder{
+            padding: 100px 100px 100px 100px;
+            background-color: #e5e7eb83;
+            text-align: center;
+            color: #F9FAF8;
+        }
 
 
 
