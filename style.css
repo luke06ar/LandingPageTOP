@@ -47,7 +47,6 @@ a{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 100px;
     }
         .text-signup{
             display: flex;
@@ -78,7 +77,10 @@ a{
             }
 
         .placeholder{
-            padding: 100px 100px 100px 100px;
+            
+            width: 1000px;
+            height: auto;
+            padding: 100px;
             background-color: #e5e7eb83;
             text-align: center;
             color: #F9FAF8;
