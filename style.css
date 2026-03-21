@@ -138,17 +138,6 @@ a{
         color: #1F2937;
     }
 
-
-
-
-
-
-
-
-
-
-
-
 .quote{
     display: flex;
     flex-direction: column;   
@@ -177,32 +166,57 @@ a{
          margin-top: 10px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sign-up{
     display: flex;
+    flex-direction: column;   
+    font-family:'Noto Sans','Open Sans', 'Lato';
+    align-items: center; 
+    padding: 150px 300px 150px 300px;
     background-color: white; 
-    height: 300px;   
 }
+
+    .sign-up h5,
+    .sign-up h3{
+        margin: 0;
+        padding: 0;
+        color: #F9FAF8;
+    }        
+
+    .sign-up h5{
+        font-size: 125%;
+    }
+
+     .sign-up h3{
+        font-size: 150%;
+     }
+
+    .sign-up .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 50px;
+        background-color: #3882F6;
+        border-radius: 12px;
+    }
+
+    .sign-up .sign{
+        border: 2px solid #F9FAF8;
+        font-size: 150%;
+    }
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     display: flex;
-    background-color: #1F2937; 
-    height: 300px;   
+    background-color: #1F2937;  
 }
