@@ -151,13 +151,33 @@ a{
 
 .quote{
     display: flex;
-    flex-direction: column;
-    padding: 150px 0px 150px 0px;    
+    flex-direction: column;   
     font-family:'Noto Sans','Open Sans', 'Lato';
     align-items: center; 
-    gap: 50px;
     background-color: #E5E7EB;  
 }
+    .quote .content{
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        padding: 150px 300px 150px 300px; 
+    }
+
+    #quote-text{
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+    #signature{
+        font-size: 24px;
+        font-weight: 900;
+        align-self: flex-end;
+         margin-top: 10px;
+    }
+
 
 
 
