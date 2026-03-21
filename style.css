@@ -218,5 +218,17 @@ a{
 
 .footer{
     display: flex;
+    flex-direction: column;   
+    font-family:'Noto Sans','Open Sans', 'Lato';
+    justify-content: center;
+    align-items: center;  
     background-color: #1F2937;  
+    padding: 30px;
 }
+
+    .footer p{
+        font-size: 14px;
+        color: #F9FAF8;
+        margin:0;
+        padding: 0;
+    }
