@@ -107,10 +107,7 @@ a{
     align-items: center; 
     gap: 50px;
 }
-    .Icontent{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .info .content{
         gap: 40px;
     }
 
@@ -138,7 +135,7 @@ a{
     .caption{
         text-align: center;
         font-size: 14px;
-        color: #6b7280;
+        color: #1F2937;
     }
 
 
@@ -154,9 +151,30 @@ a{
 
 .quote{
     display: flex;
-    background-color: #E5E7EB;
-    height: 300px;    
+    flex-direction: column;
+    padding: 150px 0px 150px 0px;    
+    font-family:'Noto Sans','Open Sans', 'Lato';
+    align-items: center; 
+    gap: 50px;
+    background-color: #E5E7EB;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sign-up{
     display: flex;
