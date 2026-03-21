@@ -101,13 +101,45 @@ a{
 .info{
     display: flex;
     flex-direction: column;
-    padding: 0px 300px 150px 300px;    
+    padding: 50px 0px 150px 0px;    
     background-color: white;
-    height: 300px;
     font-family:'Noto Sans','Open Sans', 'Lato';
-    justify-content: center;
     align-items: center; 
+    gap: 50px;
 }
+    .Icontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .info h1{
+        font-size: 36px;
+        font-weight: 900;
+        color:#1F2937;
+    }
+
+    .box-caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 150px;
+    }
+
+    .box{
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border: 3px solid #3882F6;
+        border-radius: 12px;
+    }
+
+    .caption{
+        text-align: center;
+        font-size: 14px;
+        color: #6b7280;
+    }
 
 
 
